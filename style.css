@@ -198,8 +198,13 @@ footer {
     background-color: #32634e;
     border-top: 5px solid #FFD700;
 }
-footer p {
+.foot1 {
     margin: 0;
+}
+
+.foot2 {
+    color: grey;
+    font-size: 12px;
 }
 @media (max-width: 1024px) {
     .grille {
