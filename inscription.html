@@ -23,32 +23,44 @@
         <a class="bouton" href="https://wa.me/2250718767611" target="_blank" rel="noopener noreferrer">CONTACTEZ-NOUS</a>
     </header>
 
-    <main>
-        <h1>INSCRIPTION</h1>
-        <section id="inscription">
-            <form class="inscription" action="" method="post">
-                <p class="intro">Remplissez les champs ci-dessous pour vous inscrire et recevoir plus d'informations :</p>
-                <div class="champs">
-                    <label for="nom">Nom :</label>
-                    <input id="nom" name="nom" type="text" placeholder="Kouassi Fabrice Joe" autocomplete="name"
-                        minlength="4" required>
-                </div>
-                <div class="champs">
-                    <label for="email">Email :</label>
-                    <input id="email" name="email" type="email" placeholder="fabricejoe@gmail.com" autocomplete="email"
-                        required>
-                </div>
-                <div class="champs">
-                    <label for="tel">Numéro de téléphone :</label>
-                    <input id="tel" name="tel" type="tel" placeholder="0123456789" autocomplete="tel" required>
-                </div>
-                <div class="champs">
-                    <label for="message">Entrez votre message :</label>
-                    <textarea id="message" name="message" placeholder="Votre message..." rows="5"></textarea>
-                </div>
-                <button type="submit">Valider</button>
-            </form>
-        </section>
+    <main class="page-inscription">
+        <div class="cadre-inscription">
+            <aside class="inscription-texte">
+                <span class="badge">Rejoignez-nous</span>
+                <h1>INSCRIPTION</h1>
+                <p>Développez votre activité agricole avec les solutions modernes et durables de GAK AGROTECH.</p>
+                <ul>
+                    <li>Conseils personnalisés</li>
+                    <li>Produits céréaliers de qualité</li>
+                    <li>Accompagnement à chaque étape</li>
+                </ul>
+            </aside>
+
+            <section id="inscription">
+                <form class="inscription" action="" method="post">
+                    <p class="intro">Remplissez les champs ci-dessous pour recevoir plus d'informations et être accompagné dans votre projet.</p>
+                    <div class="champs">
+                        <label for="nom">Nom complet</label>
+                        <input id="nom" name="nom" type="text" placeholder="Kouassi Fabrice Joe" autocomplete="name"
+                            minlength="4" required>
+                    </div>
+                    <div class="champs">
+                        <label for="email">Adresse email</label>
+                        <input id="email" name="email" type="email" placeholder="fabricejoe@gmail.com" autocomplete="email"
+                            required>
+                    </div>
+                    <div class="champs">
+                        <label for="tel">Numéro de téléphone</label>
+                        <input id="tel" name="tel" type="tel" placeholder="0123456789" autocomplete="tel" required>
+                    </div>
+                    <div class="champs">
+                        <label for="message">Votre message</label>
+                        <textarea id="message" name="message" placeholder="Décrivez votre besoin ou votre projet..." rows="5"></textarea>
+                    </div>
+                    <button type="submit">Valider</button>
+                </form>
+            </section>
+        </div>
     </main>
 
     <footer>
